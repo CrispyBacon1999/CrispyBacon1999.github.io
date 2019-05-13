@@ -1,0 +1,37 @@
+{
+  "name": "joshbacon",
+  "private": true,
+  "description": "Website for joshbacon.com",
+  "version": "0.1.0",
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write src/**/*.{js,jsx}",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\"",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
+  },
+  "dependencies": {
+    "@uifabric/fluent-theme": "^0.16.7",
+    "gatsby": "^2.4.0",
+    "office-ui-fabric-react": "^6.176.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-router": "^5.0.0",
+    "react-router-dom": "^5.0.0"
+  },
+  "devDependencies": {
+    "gatsby-plugin-typescript": "^2.0.13",
+    "gh-pages": "^2.0.1",
+    "prettier": "^1.17.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CrispyBacon1999/CrispyBacon1999.github.io"
+  },
+  "bugs": {
+    "url": "https://github.com/CrispyBacon1999/CrispyBacon1999.github.io/issues"
+  }
+}
