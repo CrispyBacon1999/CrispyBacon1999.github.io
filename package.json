@@ -16,9 +16,12 @@
   "dependencies": {
     "@uifabric/fluent-theme": "^0.16.7",
     "gatsby": "^2.4.0",
+    "gatsby-plugin-transition-link": "^1.12.4",
+    "gsap": "^2.1.2",
     "office-ui-fabric-react": "^6.176.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
+    "react-pose": "^4.0.8",
     "react-router": "^5.0.0",
     "react-router-dom": "^5.0.0"
   },
