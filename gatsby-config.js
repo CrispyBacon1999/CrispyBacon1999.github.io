@@ -1,4 +1,3 @@
 module.exports = {
   plugins: [`gatsby-plugin-typescript`, `gatsby-plugin-transition-link`],
-  pathPrefix: "/reponame",
 }

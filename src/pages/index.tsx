@@ -25,14 +25,7 @@ class App extends Component<{}, { loading: boolean }> {
   }
 
   render() {
-    return (
-      <div>
-        Joshbacon.com
-        <AniLink fade to="/vyper">
-          <PrimaryButton>Vyper</PrimaryButton>
-        </AniLink>
-      </div>
-    )
+    return <Stack />
   }
 }
 
