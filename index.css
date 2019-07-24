@@ -1,0 +1,60 @@
+.skills>.body {
+    padding: 20px;
+    display: grid;
+    grid-gap: 30px;
+    grid-auto-rows: minmax(100px, auto);
+    grid-template-areas: "javascript python python cs" "react labview html html"
+}
+
+@media only screen and (max-width: 768px) {
+    .skills>.body {
+        padding: 30px;
+        grid-template-areas: "javascript" "react" "python" "html" "cs" "labview"
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .skills>.body {
+        padding: 30px;
+        grid-template-areas: "javascript react" "python html" "cs labview"
+    }
+}
+
+.skills .notification {
+    height: 100%;
+}
+
+.javascript {
+    grid-area: javascript;
+}
+
+.react {
+    grid-area: react;
+}
+
+.python {
+    grid-area: python;
+}
+
+.html {
+    grid-area: html;
+}
+
+.cs {
+    grid-area: cs;
+}
+
+.labview {
+    grid-area: labview;
+}
+
+.detroit {
+    background-image: url(assets/skyline.png), linear-gradient(127deg, #d7d7d7c0, #a0a2b0 75%), linear-gradient(217deg, #d7d7d7c0, #e4e8f3 75%), linear-gradient(336deg, #d7d7d7c0, #929ea3 75%);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+}
+
+.detroit .title, .detroit .subtitle {
+    color: white;
+}
